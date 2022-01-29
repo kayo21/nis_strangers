@@ -7,6 +7,6 @@ from django.contrib.auth.models import User
 app_name = 'playlist'
 urlpatterns = [
     url(r'^$', main, name='main'),
-    url(r'^about/$', about, name='about'),
+    url(r'^about/$', about, name='about'),  
 ]
 
